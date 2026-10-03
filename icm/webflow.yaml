@@ -1,0 +1,29 @@
+version: 1
+project: animo-bambu
+status: connected
+
+repository:
+  full_name: executiveusa/animobambu
+  role: control-plane
+
+webflow:
+  site_id: "6799ccd170a8bb46165fbc41"
+  workspace_id: "6758686fb2aeae8890fbe13d"
+  display_name: "QUIEN ES BAMBU?"
+  short_name: "quien-es-bambu"
+  role: visual-cms-runtime
+  custom_domains: []
+
+identity:
+  site_name: "Ánimo Bambu"
+  hero_question: "¿Quién es Bambu?"
+  person_name_es: "Bambu"
+  primary_language: es-MX
+  secondary_language: en
+
+governance:
+  inspect_before_change: true
+  draft_before_publish: true
+  preserve_provenance: true
+  human_approval_for_publish: true
+  human_approval_for_domain_change: true
