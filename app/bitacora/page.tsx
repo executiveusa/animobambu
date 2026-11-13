@@ -14,12 +14,12 @@ export default function BitacoraPage() {
     <main>
       <header className="nav">
         <a className="brand" href="/">QUIÉN ES BAMBÚ</a>
-        <nav aria-label="Navegación principal">
-          <a href="/">Inicio</a>
-          <a href="/#historia">Historia</a>
-          <a href="/#trabajo">Trabajo</a>
-          <a href="/bitacora" aria-current="page">Bitácora</a>
-          <a href="/#contacto">Contacto</a>
+        <nav aria-label="Main navigation">
+          <a href="/#historia">Past</a>
+          <a href="/#trabajo">Present</a>
+          <a href="/future">Future</a>
+          <a href="/blog" aria-current="page">Blog</a>
+          <a href="/#contacto">Contact Me</a>
         </nav>
       </header>
       <section className="bitacora paper bitacora-page" aria-labelledby="bitacora-title">
