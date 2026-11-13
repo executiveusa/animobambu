@@ -1,11 +1,11 @@
-# Quien Es Bambu → Animo Bambu Migration Baseline
+# QUIÉN ES BAMBÚ → Animo Bambu Migration Baseline
 
 Date: 2026-09-10
 Status: source-of-truth snapshot before implementation. This file does not authorize a domain cutover or deletion of the Webflow site.
 
 ## Outcome
 
-Rebuild the existing `quien-es-bambu.design.webflow.com` experience in this owner-controlled repository, preserve its recognizable collage/torn-paper personality, replace template contamination with Bambu's real story/work, add the **Kenneth Bamboo** publishing system, and create a direct path to paid work.
+Rebuild the existing `quien-es-bambu.design.webflow.com` experience in this owner-controlled repository, preserve its recognizable collage/torn-paper personality, replace template contamination with Bambu's real story/work or explicit plain-language placeholders, add the **Bitácora** publishing layer, and create a direct path to paid work.
 
 ## Source
 
@@ -20,12 +20,12 @@ Rebuild the existing `quien-es-bambu.design.webflow.com` experience in this owne
 | Home | `6799ccd270a8bb46165fc06d` | Preserve core hero/values and rebuild as the public front door |
 | About | `6799ccd270a8bb46165fc08f` | Replace contaminated template biography with Bambu story/timeline |
 | Work | `6799ccd270a8bb46165fc090` | Replace empty CMS with verified case studies/projects |
-| Blog | `6799ccd270a8bb46165fc091` | Rename/reframe as **Kenneth Bamboo** |
+| Blog | `6799ccd270a8bb46165fc091` | Rename/reframe as **Bitácora** |
 | Contact | `6799ccd270a8bb46165fc092` | Replace placeholder FAQ/form copy and connect to owner-controlled lead flow |
 
 ## Source copy to preserve or intentionally evolve
 
-- `QUIEN / ES / BAMBU?`
+- `QUIÉN / ES / BAMBÚ?`
 - `LOYALTY, HONOR, TRUTH, RESPECT`
 - `ONE WITHOUT PURPOSE IS LOST — O.W.P.I.L.`
 - `Hello I'm Bambu, a nomadic volunteer sworn to make the world look and work just a bit better than it was before me.`
@@ -33,17 +33,34 @@ Rebuild the existing `quien-es-bambu.design.webflow.com` experience in this owne
 - the collaborative idea: meaningful work is not done alone; remove the `I` from ideas and turn them into `OUR-DEAS`
 - the long-horizon / next-seven-generations framing
 - Work as a collage of disciplines rather than a narrow job title
-- Blog as the place where thoughts that survive the crumpled-page process are kept
+- Bitácora as the place where approved thoughts, lessons, stories, observations, projects, people, places, and discoveries are kept
 
 ## Template contamination that must not survive migration
 
 - `HELLO I'M ANTHONY`
-- lorem ipsum on About/Contact
+- all lorem ipsum on About/Contact or anywhere else
 - generic template service copy presented as biography or proof
 - `No items found` CMS placeholders
 - `example@comapny.com`
 - stale template marketplace/buy-template UI
 - any fake project, client, testimonial, metric, or completion state
+
+### Placeholder copy rule
+
+Never replace missing real content with invented biography, fake proof, generic marketing copy, or more filler. When verified content is not ready, use short, obvious Spanish-first placeholder text that states what belongs there.
+
+Approved placeholder patterns:
+
+- `[Historia de Bambú — pendiente]`
+- `[Foto o recuerdo personal — pendiente]`
+- `[Proyecto real — contenido pendiente]`
+- `[Resultado o evidencia del proyecto — pendiente]`
+- `[Persona / colaborador — pendiente de aprobación]`
+- `[Entrada de Bitácora — pendiente]`
+- `[Información de contacto — pendiente]`
+- `[Llamado a la acción — pendiente]`
+
+Placeholders must be visibly temporary, truthful, concise, and easy to search-and-replace later. They must never look like finished public copy.
 
 ## Visual system captured from Webflow
 
@@ -94,16 +111,15 @@ Do not move custom font files into public sharing artifacts. The implementation 
 
 ## Target public information architecture
 
-- `/` — Who is Bambu + strongest proof + current paid offer
-- `/story` — autobiography/timeline, image-led
-- `/work` — verified case studies/outcomes
-- `/projects` — active and historical projects with truthful status/proof
-- `/kenneth-bamboo` — canonical long-form blog/essays/field notes
-- `/animo-bambu` — Animo Bambu identity/manifesto/sister-project bridge
-- `/people` — only public-safe collaborators/influences
-- `/now` — current focus
-- `/archive` — durable public legacy
-- `/hire` — entry point to the Vibe Audit → Rescue → Launch → Operations path
+- `/` — Quién es Bambú + strongest proof + current paid offer
+- `/historia` — autobiography/timeline, image-led
+- `/trabajo` — verified case studies/outcomes
+- `/proyectos` — active and historical projects with truthful status/proof
+- `/bitacora` — canonical long-form journal/essays/field notes
+- `/personas` — only public-safe collaborators/influences
+- `/ahora` — current focus
+- `/archivo` — durable public legacy
+- `/trabajemos` — entry point to the Vibe Audit → Rescue → Launch → Operations path
 
 ## Structured content model
 
@@ -131,7 +147,7 @@ Pi / Jeremy + Second Brain
         ↓
 owner-approved public projection
         ↓
-Animo Bambu / Kenneth Bamboo / social channels
+QUIÉN ES BAMBÚ / Bitácora / social channels
 ```
 
 Never let browser code on the public site directly read:
@@ -148,7 +164,7 @@ Never let browser code on the public site directly read:
 
 Start with one real, source-backed story/case study and derive:
 
-1. one Kenneth Bamboo long-form post
+1. one Bitácora long-form post
 2. one public project/case-study page
 3. three to five short social posts
 4. three to five vertical-video hooks/scripts
@@ -160,15 +176,17 @@ Primary measurement at zero audience: qualified replies, conversations, proposal
 
 Do not build the entire life archive first.
 
-`Webflow visual shell → Home → one real case study → one Kenneth Bamboo post → /hire CTA`
+`Webflow visual shell → Home → one real case study → one Bitácora post → /trabajemos CTA`
 
 Acceptance for that slice:
 
 - mobile + desktop render correctly
+- no lorem ipsum anywhere
 - no template placeholder contamination
+- any not-yet-verified section uses only explicit temporary placeholder labels from this document
 - one real case study has evidence/provenance
-- one Kenneth Bamboo post renders from structured content
-- Hire CTA reaches a verifiable owner-controlled destination
+- one Bitácora post renders from structured content
+- Trabajemos CTA reaches a verifiable owner-controlled destination
 - no private data or credentials appear in browser payloads
 - Webflow remains rollback until parity/owner approval
 
