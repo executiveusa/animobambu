@@ -62,11 +62,8 @@ export default function Home() {
         <img className="rip rip-blog" src={`${A}/6799ccd270a8bb46165fc0e0_Blog%20Gird%20Rip.svg`} alt="" />
         <p className="eyebrow dark">BITÁCORA</p>
         <h2>Notas que sobrevivieron la hoja arrugada.</h2>
-        <div className="note-grid">
-          <article><span>01</span><h3>[Entrada de Bitácora — pendiente]</h3><p>Ideas, observaciones y aprendizajes.</p></article>
-          <article><span>02</span><h3>[Entrada de Bitácora — pendiente]</h3><p>Personas, lugares y proyectos.</p></article>
-          <article><span>03</span><h3>[Entrada de Bitácora — pendiente]</h3><p>Trabajo en progreso y preguntas.</p></article>
-        </div>
+        <p className="bitacora-lead">Historias, aprendizajes y observaciones reales. Las primeras entradas están en preparación.</p>
+        <a className="journal-home" href="/bitacora">Explorar la Bitácora →</a>
       </section>
 
       <section id="contacto" className="contact">
