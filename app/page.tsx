@@ -5,12 +5,12 @@ export default function Home() {
     <main>
       <header className="nav">
         <a className="brand" href="#top">QUIÉN ES BAMBÚ</a>
-        <nav>
-          <a href="#historia">Historia</a>
-          <a href="#trabajo">Trabajo</a>
+        <nav aria-label="Main navigation">
+          <a href="/#historia">Past</a>
+          <a href="/#trabajo">Present</a>
+          <a href="/future">Future</a>
           <a href="/blog">Blog</a>
-          <a href="#bitacora">Bitácora</a>
-          <a href="#contacto">Contacto</a>
+          <a href="/#contacto">Contact Me</a>
         </nav>
       </header>
 
