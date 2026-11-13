@@ -8,6 +8,7 @@ export default function Home() {
         <nav>
           <a href="#historia">Historia</a>
           <a href="#trabajo">Trabajo</a>
+          <a href="/blog">Blog</a>
           <a href="#bitacora">Bitácora</a>
           <a href="#contacto">Contacto</a>
         </nav>
@@ -63,7 +64,7 @@ export default function Home() {
         <p className="eyebrow dark">BITÁCORA</p>
         <h2>Notas que sobrevivieron la hoja arrugada.</h2>
         <p className="bitacora-lead">Historias, aprendizajes y observaciones reales. Las primeras entradas están en preparación.</p>
-        <a className="journal-home" href="/bitacora">Explorar la Bitácora →</a>
+        <a className="journal-home" href="/blog">Explorar el Blog →</a>
       </section>
 
       <section id="contacto" className="contact">
